@@ -44,7 +44,7 @@ try:
 
     nearest_airport = find_nearest_airport(float(latitude), float(longitude))
 
-    print('Nearest Airport is ', nearest_airport[0], ' which is ', nearest_airport[1], ' miles away.')
+    print('Nearest Airport is ', nearest_airport[0], ' which is ', nearest_airport[1], ' miles away.') 
 
 except ValueError as e:
     print(e)
